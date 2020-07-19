@@ -99,10 +99,10 @@ span.guestPw {
 		
 		  <div class="container">
 		    <label for="uname"><b>Manager Id</b></label>
-		    <input type="text" placeholder="Enter Manager Id" name="adminId" required>
+		    <input type="text" placeholder="Enter Manager Id (admin)" name="adminId" required>
 		
 		    <label for="psw"><b>Password</b></label>
-		    <input type="password" placeholder="Enter Password" name="adminPw" required>
+		    <input type="password" placeholder="Enter Password (1234)" name="adminPw" required>
 		        
 		    <button type="submit" class="btn btn-dark">Login</button>
 		    

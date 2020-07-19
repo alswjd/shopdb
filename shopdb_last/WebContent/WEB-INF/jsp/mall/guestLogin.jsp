@@ -110,10 +110,10 @@ span.guestPw {
 		
 		  <div class="container">
 		    <label for="uname"><b>Username</b></label>
-		    <input type="text" placeholder="Enter Username" name="guestId" required>
+		    <input type="text" placeholder="Enter Username (guest)" name="guestId" required>
 		
 		    <label for="psw"><b>Password</b></label>
-		    <input type="password" placeholder="Enter Password" name="guestPw" required>
+		    <input type="password" placeholder="Enter Password (1234)" name="guestPw" required>
 		        
 		    <button type="submit" class="btn btn-dark">Login</button>
 		    <a href="${pageContext.request.contextPath}/mall/InsertGuest"  class="btn btn-dark">Sign up</a>
